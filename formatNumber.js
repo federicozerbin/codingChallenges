@@ -1,3 +1,6 @@
+/*Phone Number Formatter
+Given a string of eleven digits, return the string as a phone number in this format: "+D (DDD) DDD-DDDD".*/
+
 function formatNumber(number) {
   let prefix = number.at(0);
   let triplet1 = number.slice(1, 4);
